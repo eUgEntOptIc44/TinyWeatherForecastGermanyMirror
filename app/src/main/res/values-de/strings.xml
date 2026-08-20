@@ -548,4 +548,5 @@
     <string name="preference_widget_clock_title">Größe der Uhr</string>
     <string name="preference_overviewchart_inappsize_title">Größe</string>
     <string name="preference_overviewchart_inappsize_summary">Größe der Übersichtstabelle im Portrait-Modus.</string>
+    <string name="error_no_data" translatable="true">Keine Wetterdaten verfügbar.</string>
 </resources>
