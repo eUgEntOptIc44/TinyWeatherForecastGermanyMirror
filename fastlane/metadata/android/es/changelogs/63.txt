@@ -1,0 +1,1 @@
+- se corrigió que algunos ajustes no fueran visibles

@@ -1,19 +1,18 @@
 Versión 0.31:
-- Se corrigió el fallo al iniciar por primera vez (y no hay datos meteorológicos antiguos)
-- "Novedades" ahora también aparece durante la instalación inicial
+- se corrigió el cierre de la app en el primer inicio sin datos previos
+- "Novedades" ahora aparece tras la primera instalación
 
 Versión 0.30:
-
-- Opción agregada para cargar datos meteorológicos a intervalos regulares, esto se puede activar/desactivar en la configuración
-- Se agregó la hora visible de la última actualización en la aplicación.
-- La aplicación y el widget ahora también muestran la dirección del viento.
-- Corregido: los datos del viento perdieron información de dirección.
-- corregido: error de análisis del campo FDAT (parte del ID del sensor)
-- corregido: valor predeterminado no válido para el intervalo de actualización
-- solucionado: error que resultó en una actualización muy rara
-- Compatibilidad con Gadgetbridge: solucionado: la marca de tiempo de Unix estaba llena de basura
-- Soporte Gadgetbridge: fijo: la dirección del viento siempre fue 0°
-- Compatibilidad con Gadgetbridge: solucionado: la temperatura se transmitía en grados Celsius en lugar de Kelvin
-- Soporte Gadgetbridge: arreglado: los niveles climáticos no siempre eran compatibles con el estándar Lineageos
-- Compatibilidad con Gadgetbridge: solucionado: el estado del tiempo ahora muestra el tiempo actual en lugar del pronóstico del día
-- La compatibilidad con Gadgetbridge aún es experimental, ¡pero debería funcionar!
+- opción para descargar datos climáticos en intervalos personalizados
+- hora de última actualización visible en la app principal
+- app y widget ahora muestran la dirección del viento
+- se corrigió la pérdida de datos de dirección del viento
+- se corrigió error en el campo FDAT (ID del sensor)
+- se corrigió el valor por defecto del intervalo de actualización
+- se corrigió fallo que retrasaba las actualizaciones automáticas
+- Gadgetbridge: se eliminaron datos basura en la marca de tiempo unix
+- Gadgetbridge: se corrigió dirección del viento fija en 0°
+- Gadgetbridge: temperatura enviada en celsius en vez de kelvin
+- Gadgetbridge: mayor compatibilidad de condiciones con LineageOS
+- Gadgetbridge: ahora muestra la condición actual, no el pronóstico diario
+- el soporte de Gadgetbridge sigue en beta, ¡pero ya funciona!

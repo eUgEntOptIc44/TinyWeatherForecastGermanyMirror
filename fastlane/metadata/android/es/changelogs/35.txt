@@ -1,6 +1,6 @@
 - nuevo idioma: ucraniano (¡gracias a Andrij Mizyk y eUgEntOptIc44!)
-- nuevo cuadro general (se puede habilitar en la configuración)
-- nuevo diseño horizontal para pantallas con un ancho de al menos 600 dp
-- Al presionar prolongadamente un elemento de pronóstico en la aplicación ahora se abre una vista más detallada
-- días de pronóstico fijos en dispositivos portátiles desplazados un día
-- solución mín/máx. Las temperaturas a veces son incorrectas en el primer intervalo de pronóstico.
+- nuevo gráfico de resumen (se puede activar en los ajustes)
+- nuevo diseño horizontal para pantallas de al menos 600dp
+- pulsar prolongadamente un elemento del pronóstico ahora abre una vista detallada
+- se corrigió que los días del pronóstico en wearables estuvieran desfasados un día
+- se corrigió que las temperaturas mín/máx a veces fueran erróneas en el primer intervalo

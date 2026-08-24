@@ -1,10 +1,10 @@
-- ahora otras aplicaciones pueden compartir coordenadas geográficas con esta aplicación
-- mejoras significativas en el rendimiento de la aplicación principal con el nuevo almacenamiento en caché de mapas de bits (¡gracias a Marc Nause!)
-- la latitud se muestra ahora por encima de la longitud
-- nuevo widget con reloj y tiempo
-- Mejora del diseño del cuadro de diálogo de búsqueda.
-- Mejorado el diseño del widget grande, especialmente en lo que se refiere a la información que se corta en los dispositivos más antiguos.
-- Arreglada la temperatura máxima demasiado alta en la primera entrada de 6 horas en la aplicación principal.
-- Corrección de comas no aceptadas en las coordenadas geográficas.
-- Corrección de la condición de niebla helada que no se mostraba correctamente.
-- corrección de muchos otros errores menores
+- otras apps ahora pueden compartir coordenadas con esta aplicación
+- gran mejora de rendimiento usando caché de mapas de bits (¡gracias a Marc Nause!)
+- la latitud ahora se muestra arriba de la longitud
+- nuevo widget con reloj y clima
+- diseño mejorado en el buscador
+- mejor diseño del widget grande (ya no se recorta en dispositivos viejos)
+- se corrigió la temperatura máx. alta en la primera entrada de 6 horas
+- se corrigió el error al usar comas en las coordenadas
+- se corrigió la visualización de la condición de niebla helada
+- varias correcciones de errores menores

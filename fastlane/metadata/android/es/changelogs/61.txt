@@ -1,0 +1,2 @@
+- varias correcciones de errores (ver el registro de cambios completo para más detalles)
+- traducciones mejoradas

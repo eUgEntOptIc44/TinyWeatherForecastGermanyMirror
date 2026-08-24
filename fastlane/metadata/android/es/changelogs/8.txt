@@ -1,15 +1,14 @@
 Versión 0.50:
-- Alertas meteorológicas añadidas.
-- Se agregaron íconos meteorológicos a escala y conjuntos de íconos para diferentes pantallas para aumentar el rendimiento.
+- se agregaron alertas climáticas del DWD
+- nuevos íconos y símbolos escalados para mejorar rendimiento
 - mejor soporte para pantallas anchas
-- Se agregaron imágenes introductorias que explican las características principales.
-- Se corrigió la rutina de eliminación rota para datos meteorológicos obsoletos.
-- solucionado: el programa se instalaba ocasionalmente en la tarjeta SD, lo que provocaba que los widgets fueran inaccesibles
-- solucionado: error menor que causaba que la aplicación fallara si se accedía a la configuración demasiado pronto en el primer inicio de la aplicación.
+- pantalla de introducción con las funciones principales
+- se corrigió el limpiador de datos viejos del pronóstico
+- se evitó la instalación en la SD que bloqueaba los widgets
+- se corrigió cierre al abrir los ajustes rápido en el primer inicio
 
 Soporte de Gadgetbridge:
-
-- Se cambió la marca de tiempo en la API de Gadgetbridge desde el momento de la consulta hasta el momento de la predicción; esto debería solucionar el problema por el cual algunos dispositivos portátiles se quejaban de datos meteorológicos inexistentes
-- Se agregó la opción para establecer la marca de tiempo en la hora actual en lugar de la hora pronosticada, ya que algunos dispositivos portátiles no aceptan un pronóstico como tiempo actual.
-- corregido: tiempo de actualización desconocido al iniciar la aplicación por primera vez
-- corregido: el texto del tiempo en los wearables no se mostraba correctamente
+- hora de API cambiada a hora de pronóstico (evita fallas en wearables)
+- opción para usar la hora actual en vez de la del pronóstico
+- se corrigió la hora de última actualización desconocida al inicio
+- se corrigió la visualización del texto de condición climática

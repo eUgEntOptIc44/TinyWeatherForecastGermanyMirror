@@ -1,0 +1,3 @@
+- la aplicación ahora tiene como objetivo el nivel de SDK 36
+- el idioma de la aplicación ahora se puede configurar en los ajustes de la aplicación
+- traducciones mejoradas
